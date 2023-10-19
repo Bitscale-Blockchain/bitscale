@@ -1,0 +1,21 @@
+{
+  "name": "inchscale",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Fedha",
+  "license": "ISC",
+  "workspaces": [
+    "packages/core",
+    "packages/network",
+    "packages/vm",
+    "packages/consensus",
+    "packages/contracts",
+    "packages/validator",
+    "packages/sequencers"
+  ]
+}
