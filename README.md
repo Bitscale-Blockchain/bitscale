@@ -13,7 +13,7 @@ This README provides an overview of the technical specifications and project str
 
 - [2. Decentralized Network Architecture](#2-decentralized-network-architecture)
 
-- [3. Ethereum ZK Rollup P2P Network Protocol](#3-ethereum-zk-rollup-p2p-network-protocol)
+- [3. P2P Network Protocol](#3-p2p-network-protocol)
 
 - [4. Protocol Events](#4-protocol-events)
 
