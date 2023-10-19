@@ -1,6 +1,6 @@
 # InchScale
 
-InchScale, is a Zero-Knowledge Rollup solution designed to boost blockchain scalability while preserving security and decentralization. InchScale provides an efficient and privacy-preserving platform for executing transactions and smart contracts on the Ethereum network and beyond. This README provides an overview of the technical specifications and project structure for developers interested in contributing to this innovative platform.
+InchScale, is a Zero-Knowledge Rollup solution designed to boost blockchain scalability while preserving security and decentralization. InchScale provides an efficient and privacy-preserving platform for executing transactions and smart contracts. This README provides an overview of the technical specifications and project structure for developers interested in contributing to this innovative platform.
 
 ## Table of Contents
 
