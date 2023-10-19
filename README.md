@@ -23,7 +23,7 @@ This README provides an overview of the technical specifications and project str
 
 #### 1.1.1 Rollup Manager Contract
 
-The Rollup Manager Contract is the heart of the Ethereum ZK Rollup ecosystem, managing state and interactions. Key features include:
+The Rollup Manager Contract is the heart of the ZK Rollup ecosystem, managing state and interactions. Key features include:
 
 - **User Balances**: A mapping of user Ethereum addresses to their balances within the Rollup.
 - **Contract States**: Management of smart contract states.
@@ -59,7 +59,7 @@ The execution engine uses zkEVM for transaction processing. Key components inclu
 - **Executors**: Distributed across the network to execute transactions within batches off-chain.
 - **Provers**: Collaborate with Sequencers to generate zero-knowledge proofs for batches of transactions.
 - **Validator Network**: A decentralized network for validating transactions and zero-knowledge proofs.
-- **Relayer**: Acts as an intermediary between the off-chain ZK Rollup network and Ethereum Layer 1 (L1) contracts.
+- **Relayer**: Acts as an intermediary between the off-chain ZK Rollup network and Layer 1 (L1) contracts.
 
 ## 3. P2P Network Protocol
 
@@ -77,4 +77,4 @@ For detailed technical specifications and code contributions, please refer to th
 
 ---
 **InchScale Project Team**
-[Website](https://www.inchscale.io) | [GitHub](https://github.com/Inchpower-Blockchain) | [Contact Us](mailto:contact@inchscale.io)
+[Website](https://www.inchpower.io) | [GitHub](https://github.com/Inchpower-Blockchain) | [Contact Us](mailto:contact@inchpower.io)
