@@ -1,80 +1,49 @@
-# BitScale
+Bitscale Frontend UI Monorepo
+=============================
 
-Bitscale, is a Zero-Knowledge Rollup solution designed to boost blockchain scalability while preserving security and decentralization. BitScale provides an efficient and privacy-preserving platform for executing transactions and smart contracts. This README provides an overview of the technical specifications and project structure for developers interested in contributing to this innovative platform.
+Welcome to the Bitscale Frontend UI Monorepo! This repository contains all frontend code written in React JavaScript & TypeScript for the Bitscale platform. It includes packages and apps for components, pages, stylesheets, and assets necessary for the Bitscale user interface.
 
-## Table of Contents
+Overview
+--------
 
-- [1. Core Infrastructure](#1-core-infrastructure)
-  - [1.1 On-Chain Contracts](#11-on-chain-contracts)
-    - [1.1.1 Rollup Manager Contract](#111-rollup-manager-contract)
-    - [1.1.2 Verifier Contract](#112-verifier-contract)
-    - [1.1.3 Data Availability Contract](#113-data-availability-contract)
-  - [1.2 Off-Chain Virtual Machine](#12-off-chain-virtual-machine)
+Bitscale is an Operating-System-Level Bitcoin scaling solution focused on Finance. It enables smart contracts to use Bitcoin as a utility asset trustlessly by implementing Double-Way-Pegging architecture, cutting-edge Zero-knowledge technology, and an OS account system.
 
-- [2. Decentralized Network Architecture](#2-decentralized-network-architecture)
+Packages and Apps
+-----------------
 
-- [3. P2P Network Protocol](#3-p2p-network-protocol)
+This repository hosts various packages and apps that constitute the frontend user interface of the Bitscale platform. Here are some key packages and apps included:
 
-- [4. Protocol Events](#4-protocol-events)
+-   **Components Library:** Contains reusable UI components used across the Bitscale platform.
+-   **Pages:** Implements various pages and screens for different functionalities within the Bitscale ecosystem.
+-   **Stylesheets:** Manages stylesheets and themes for consistent branding and user experience.
+-   **Assets:** Stores static assets such as images, icons, and fonts used throughout the frontend.
 
-## 1. Core Infrastructure
+Installation
+------------
 
-### 1.1 On-Chain Contracts
+To get started with the Bitscale Frontend UI, follow these steps:
 
-#### 1.1.1 Rollup Manager Contract
+1.  Clone this repository to your local machine.
+2.  Ensure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/) installed on your system.
+3.  Navigate to the `bitscale-ui` directory.
+4.  Run `npm install` or `yarn install` to install dependencies.
+5.  Run `npm start` or `yarn start` to start the development server.
 
-The Rollup Manager Contract is the heart of the ZK Rollup ecosystem, managing state and interactions. Key features include:
+Contributing
+------------
 
-- **User Balances**: A mapping of user Ethereum addresses to their balances within the Rollup.
-- **Contract States**: Management of smart contract states.
-- **Data Availability Merkle Tree**: Ensuring data availability using a Merkle tree.
+We welcome contributions from the community! If you'd like to contribute to the Bitscale Frontend UI, please follow these guidelines:
 
-#### 1.1.2 Verifier Contract
+-   Fork the repository and create a new branch for your feature or bug fix.
+-   Make your changes and ensure all tests pass.
+-   Submit a pull request with a clear description of your changes.
 
-The Verifier Contract specializes in efficient proof verification and cryptographic proof validation.
+License
+-------
 
-- Focuses on cryptographic proof verification and does not store extensive state variables.
-- Verifies the validity of zero-knowledge proofs submitted by Rollup operators.
+This project is licensed under the MIT License.
 
-#### 1.1.3 Data Availability Contract
+Contact
+-------
 
-The Data Availability Contract ensures data availability and utilizes a Merkle tree structure.
-
-- Monitors data availability using a Merkle tree.
-- Enhances the security and transparency of the Rollup by mitigating data withholding attacks.
-
-### 1.2 Off-Chain Virtual Machine
-
-The execution engine uses zkEVM for transaction processing. Key components include:
-
-- Transaction execution, including validating transactions, executing smart contracts, and updating account balances.
-- State management, maintaining off-chain state using zkEVM.
-- Batch creation for efficient processing and Merkle root generation.
-- Data availability and validation using zero-knowledge proofs.
-- Submission to Layer 1 (L1) for final verification and state transition.
-
-## 2. Decentralized Network Architecture
-
-- **Sequencers**: Independent operators that collect and sequence transactions, ensuring adherence to Rollup rules.
-- **Executors**: Distributed across the network to execute transactions within batches off-chain.
-- **Provers**: Collaborate with Sequencers to generate zero-knowledge proofs for batches of transactions.
-- **Validator Network**: A decentralized network for validating transactions and zero-knowledge proofs.
-- **Relayer**: Acts as an intermediary between the off-chain ZK Rollup network and Layer 1 (L1) contracts.
-
-## 3. P2P Network Protocol
-
-**Protocol Version: 1.0**
-
-- Network topology involving Sequencers, Executors, Provers, Validators, and Relayers.
-- Structured data exchange format.
-- Message format with types like "transaction," "proof," and "state_update."
-
-## 4. Protocol Events
-
-A summary of important events within the protocol, including node discovery, transaction broadcasting, proof generation, validation, state updates, data relaying, L1 submission, data availability monitoring, governance, and monitoring.
-
-For detailed technical specifications and code contributions, please refer to the project's codebase. Happy coding!
-
----
-**InchScale Project Team**
-[Website](https://www.inchpower.io) | [GitHub](https://github.com/Inchpower-Blockchain) | [Contact Us](mailto:contact@inchpower.io)
+For any questions or inquiries about the Bitscale Frontend UI, please contact us at email@example.com.
