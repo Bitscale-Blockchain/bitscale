@@ -1,4 +1,4 @@
-My Package
+BitScale TestNet Repository
 ============
 This is a [Kurtosis](https://github.com/kurtosis-tech/kurtosis/) package. It doesn't do much now, but it will soon!
 
